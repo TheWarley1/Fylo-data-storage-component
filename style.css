@@ -120,7 +120,11 @@ body {
   justify-content: space-between;
 }
 
-@media (max-width: 1080px) {
+
+/* i really dont get why 375px  is specified for mobile. doesnt even display on my phone. made a lot of mistakes. but im proud i did this still */
+
+
+@media (max-width: 375px) {
   * {
     margin: 0%;
     padding: 0%;
